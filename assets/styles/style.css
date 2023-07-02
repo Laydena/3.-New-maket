@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+.header {
+    min-height: 852px;
+    background-image: url(../img/hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header_line {
+    display: grid;
+    grid-template-columns: 237px 1fr 150px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.logo_image {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.52px;
+}
+
+.nav_items {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+
+.nav-item {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: rgb(237, 255, 129);
+}
+
+.top_button1 {
+    border-radius: 116px;
+    border: 1px solid rgba(237, 255, 129, 0.40);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 18px 34px;
+    cursor: pointer;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info {
+    display: grid;
+    grid-template-rows: 92px 73px 138px 150px;
+    text-align: center;
+
+}
+
+.subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+
+.big_title {
+    color: #FFF;
+    font-size: 90px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+
+.desc {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.top_button2 {
+    border-radius: 192px;
+    background: linear-gradient(356deg, #98AA28 0%, #D6FF7E 100%);
+    box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+    padding: 27px 62px;
+    cursor: pointer;
+
+    color: #FFF;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    border: none
+}
+
+.partners {
+    max-width: 1170px;
+    margin: 25px auto;
+}
+
+.logo_pict {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_part {
+    display: block;
+    text-align: center;
+}
+
+.strategic {
+    max-width: 1170px;
+    margin: 60px auto;
+}
+
+.strategic_container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
+
+.left_container {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+}
+
+h4 {
+    color: #253D32;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0.84px;
+    margin: 0;
+}
+
+.left_p {
+    color: #78847D;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.left_a {
+    color: #A3B938;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}
+
+h6 {
+    color: #253D32;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 15px 0;
+}
+
+.right_p {
+    color: #78847D;
+    font-size: 18px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 15px 0;
+}
+
+.social_media {
+    max-width: 1170px;
+    margin: 60px auto;
+
+}
+
+.soc_container {
+    display: grid;
+    grid-template-columns: 670px 1fr;
+    gap: 66px;
+
+}
+
+.help {
+    max-width: 1170px;
+    margin: 60px auto;
+    background-color: #F6FBF9;
+}
+
+.help_container {
+    display: grid;
+    grid-template-rows: 101px 42px 116px 157px 63px;
+    text-align: center;
+}
+
+.point {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}

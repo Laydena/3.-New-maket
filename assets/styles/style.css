@@ -30,7 +30,7 @@ html {
     padding-top: 53px;
 }
 
-.header-line__logo--icon {
+.logo--icon {
     display: none;
 }
 
@@ -128,7 +128,7 @@ html {
     margin: 70px 0 214px 0;
 }
 
-.header__button-style {
+.button--green {
     background: linear-gradient(356deg, #98AA28 0%, #D6FF7E 100%);
     box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
     border-radius: 192px;
@@ -145,55 +145,7 @@ html {
     padding: 27px 62px;
 }
 
-/*Планшетный стиль*/
-@media screen and (max-width:1023px) {
-    .container {
-        padding: 0 15px;
-        margin: 0 auto;
-    }
 
-    .menu {
-        display: none
-    }
-
-    .header-line__logo {
-        display: none;
-    }
-
-    .header-line__logo--icon {
-        display: block;
-    }
-
-    .subtitle {
-        font-size: 18px;
-    }
-
-    .header-title {
-        font-size: 45px;
-    }
-
-    .description {
-        font-size: 16px;
-    }
-
-    .strategic-block {
-        display: flex;
-        gap: 110px;
-        flex-wrap: wrap;
-    }
-
-    .partners {
-        display: none;
-    }
-
-    .right-aside {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 80px;
-    }
-}
-
-/*Конец планшетного стиля*/
 
 
 .partners {
@@ -228,6 +180,8 @@ html {
 .strategic-block {
     display: flex;
     gap: 110px;
+
+    margin-bottom: 100px;
 }
 
 .title-left {
@@ -285,3 +239,221 @@ html {
 .strategic__title {
     padding-bottom: 25px;
 }
+
+.socmedia_block {
+    display: flex;
+    justify-content: flex-end;
+    gap: 65px;
+    margin-bottom: 100px;
+
+}
+
+.socmedia__picture {
+    width: 100%;
+}
+
+.socmedia-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    gap: 30px;
+}
+
+.subscribe_block {
+
+    background-image: url(../img/bg_end.svg);
+    height: 530px;
+    background-repeat: no-repeat;
+
+}
+
+.subscribe_block {
+    padding-top: 100px;
+    padding-left: 130px;
+    gap: 40px;
+}
+
+.subscribe__descr {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0.32px;
+    max-width: 660px;
+
+    margin-bottom: 35px;
+}
+
+.subscribe-cont {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.subscribe__logo {
+    margin-bottom: 70px;
+}
+
+.subscribe-cont__form {
+    border-radius: 192px;
+    background: linear-gradient(356deg, #FFF 0%, #E2E2E2 100%);
+    box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+    border: none;
+
+    width: 372px;
+    height: 78px;
+
+    margin-right: 30px;
+}
+
+.subscribe-cont__form::placeholder {
+    color: #14183E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding: 28px 40px;
+}
+
+
+
+/*Планшетный стиль*/
+@media screen and (max-width:1023px) {
+    .container {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: none
+    }
+
+    .header {
+
+        margin-bottom: 30px;
+
+    }
+
+    .logo {
+        display: none;
+
+    }
+
+    .logo--icon {
+        display: block;
+
+    }
+
+    .logo-icon {
+        width: 56px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .header-title {
+        font-size: 45px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .strategic-block {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .partners {
+        display: none;
+    }
+
+    .left-aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .right-aside {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .socmedia_block {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+    }
+
+    .socmedia-aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .subscribe_block {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 0;
+    }
+
+    .subscribe__descr {
+        color: #FFF;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.32px;
+        max-width: 660px;
+        padding: 0 15px;
+
+        margin-bottom: 0;
+    }
+
+    .subscribe-cont {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .subscribe__logo {
+        margin-bottom: 70px;
+    }
+
+    .subscribe-cont__form {
+        border-radius: 192px;
+        background: linear-gradient(356deg, #FFF 0%, #E2E2E2 100%);
+        box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+        border: none;
+
+        width: 230px;
+        height: 60px;
+
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+}
+
+/*Конец планшетного стиля*/

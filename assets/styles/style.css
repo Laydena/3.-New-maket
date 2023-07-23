@@ -308,6 +308,8 @@ html {
     margin-right: 30px;
 }
 
+
+
 .subscribe-cont__form::placeholder {
     color: #14183E;
     font-size: 18px;
@@ -320,8 +322,120 @@ html {
 
 
 
-/*Планшетный стиль*/
+/*Для планшета*/
 @media screen and (max-width:1023px) {
+    .container {
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    .menu--tablet {
+
+        gap: 20px;
+    }
+
+    .strategic-block {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+
+    .left-aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .right-aside {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .socmedia_block {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+    }
+
+    .socmedia-aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .subscribe_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 0;
+    }
+
+    .subscribe__descr {
+        color: #FFF;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.32px;
+        max-width: 660px;
+        padding: 0 15px;
+
+        margin-bottom: 0;
+    }
+
+    .subscribe-cont {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .subscribe__logo {
+        margin-bottom: 40px;
+    }
+
+    .subscribe-cont__form {
+        border-radius: 192px;
+        background: linear-gradient(356deg, #FFF 0%, #E2E2E2 100%);
+        box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+        border: none;
+
+        width: 230px;
+        height: 60px;
+
+        margin-bottom: 30px;
+
+    }
+
+
+    .subscribe-cont__button {
+        width: 230px;
+        height: 60px;
+        padding: 0;
+    }
+
+}
+
+
+/*Для смартфона*/
+@media screen and (max-width:768px) {
     .container {
         padding: 0 15px;
         margin: 0 auto;
@@ -374,68 +488,6 @@ html {
         display: none;
     }
 
-    .left-aside {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 40px;
-        align-items: center;
-        text-align: center;
-    }
-
-    .right-aside {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 40px;
-        text-align: center;
-    }
-
-    .socmedia_block {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        gap: 40px;
-        margin-bottom: 100px;
-        flex-wrap: wrap;
-    }
-
-    .socmedia-aside {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 30px;
-        text-align: center;
-        align-items: center;
-
-    }
-
-    .subscribe_block {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-top: 50px;
-        padding-left: 0;
-    }
-
-    .subscribe__descr {
-        color: #FFF;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 40px;
-        letter-spacing: 0.32px;
-        max-width: 660px;
-        padding: 0 15px;
-
-        margin-bottom: 0;
-    }
-
-    .subscribe-cont {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
 
     .subscribe__logo {
         margin-bottom: 70px;
@@ -454,6 +506,13 @@ html {
         margin-bottom: 30px;
     }
 
+
+    .subscribe-cont__button {
+        width: 230px;
+        height: 60px;
+        padding: 0;
+    }
+
 }
 
-/*Конец планшетного стиля*/
+/*Конец стиля для смартфонов*/
